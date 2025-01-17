@@ -1,0 +1,22 @@
+{
+  "name": "math",
+  "version": "1.0.0",
+  "description": "it is a npm package which provides mathmatical solutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambhusankar/my-NPM-package.git"
+  },
+  "keywords": [
+    "sankar"
+  ],
+  "author": "sankar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sambhusankar/my-NPM-package/issues"
+  },
+  "homepage": "https://github.com/sambhusankar/my-NPM-package#readme"
+}
