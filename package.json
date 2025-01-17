@@ -1,5 +1,5 @@
 {
-  "name": "math",
+  "name": "@sankarsw/math",
   "version": "1.0.0",
   "description": "it is a npm package which provides mathmatical solutions",
   "main": "index.js",
