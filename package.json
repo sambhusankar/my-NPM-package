@@ -1,6 +1,6 @@
 {
   "name": "@sankarsw/math",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "it is a npm package which provides mathmatical solutions",
   "main": "index.js",
