@@ -26,10 +26,9 @@ function min(...numbers) {
 }
 
 // Export functions
-module.exports = {
-    sum,
-    subtract,
-    multiply,
-    max,
-    min,
-};
+// Support both CommonJS and ES Modules
+if (typeof module !== "undefined" && typeof module.exports !== "undefined") {
+    module.exports = { sum, subtract, multiply, max, min };
+} else {
+    export { sum, subtract, multiply, max, min };
+}
