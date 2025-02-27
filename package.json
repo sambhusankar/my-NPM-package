@@ -1,23 +1,13 @@
 {
-  "name": "@sankarsw/math",
-  "version": "1.0.2",
-  "type": "module",
-  "description": "it is a npm package which provides mathmatical solutions",
-  "main": "index.js",
-  "scripts": {
-    "test": "test.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sambhusankar/my-NPM-package.git"
-  },
-  "keywords": [
-    "sankar"
-  ],
-  "author": "sankar",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sambhusankar/my-NPM-package/issues"
-  },
-  "homepage": "https://github.com/sambhusankar/my-NPM-package#readme"
+    "name": "sankarsw",
+    "private": true,
+    "version": "1.0.0",
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "publish-all": "npm run publish-math && npm run publish-arra2json",
+        "publish-math": "cd packages/math && npm publish --access public",
+        "publish-utils": "cd packages/arra2json && npm publish --access public"
+    }
 }

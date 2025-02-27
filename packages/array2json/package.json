@@ -1,0 +1,23 @@
+{
+  "name": "@sankarsw/spreadsheets",
+  "version": "1.0.0",
+  "description": "a package to convert 2d array to json uable for spreadsheets",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambhusankar/my-NPM-package.git"
+  },
+  "keywords": [
+    "arra2json"
+  ],
+  "author": "sankar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sambhusankar/my-NPM-package/issues"
+  },
+  "homepage": "https://github.com/sambhusankar/my-NPM-package#readme"
+}
